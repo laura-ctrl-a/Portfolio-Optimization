@@ -1,0 +1,11 @@
+#Python stack 
+
+yfinance 
+pyomo
+numpy
+pandas 
+
+#external optimization solvers used by pyomo
+
+CBC (COIN-OR Branch and Cut)
+GLPK (GNU Linear Programming Kit)

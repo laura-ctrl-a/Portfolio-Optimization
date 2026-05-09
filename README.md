@@ -5,16 +5,11 @@ Mixed-Integer Linear Programming (MILP) model for financial portfolio  optimizat
 
 ## Problem
 Select the optimal allocation among 8 assets (AAPL, MSFT, GOOG, SAP, RGTI, TSLA, GLD, BTC) maximizing risk-adjusted return under:
-- Capital budget constraint (B = $3,000)
+- Capital budget constraint (B = $10,000)
 - Diversification constraint (min K assets)
 - Min/max allocation bounds per asset
-- Binary exclusivity (BTC XOR TSLA)
-
-## Risk Measures
-| Model | Risk Measure |
-|-------|-------------|
-| Model 1 | MAD (Mean Absolute Deviation) |
-| Model 2 | Markowitz (variance-covariance) with McCormick linearization |
+- Optional: Binary exclusivity (BTC XOR TSLA)
+- Risk Measures: MAD (Mean Absolute Deviation) |
 
 ## Results
 | Alpha | Return | Risk (MAD) |
